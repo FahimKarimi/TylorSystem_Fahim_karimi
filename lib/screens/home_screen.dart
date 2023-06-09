@@ -1,5 +1,5 @@
 import 'package:tylor_app/screens/client_list_screen.dart';
-import 'package:tylor_app/screens/motivational_quotes_screen.dart';
+import 'package:tylor_app/screens/motivational_about_screen.dart';
 import 'package:tylor_app/widgets/dialog_box.dart';
 import 'package:tylor_app/widgets/measure_buttons.dart';
 import 'package:flutter/material.dart';
@@ -81,6 +81,7 @@ class HomeScreen extends StatelessWidget
                               builder: (context) => const ClientListScreen(),
                             )
                           );
+
                         },
                       ),
 
@@ -92,11 +93,12 @@ class HomeScreen extends StatelessWidget
                         {
                           Navigator.of(context).push(
                             MaterialPageRoute(
-                              builder: (context) => const MotivationalQuotesScreen(),
+                              builder: (context) => const MotivationalAboutScreen(),
                             )
                           );
                         },
-                      )
+                      ),
+
                     ],
                   )
                 ],
