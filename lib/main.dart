@@ -7,8 +7,8 @@ Future<void> main() async
 {
   runApp(MyApp());
   await Hive.initFlutter();
-  Hive.registerAdapter(UpperMeasuresAdapter());
-  Hive.registerAdapter(LowerMeasuresAdapter());
+  Hive.registerAdapter(NationalMeasuresAdapter());
+  Hive.registerAdapter(SuitMeasuresAdapter());
 }
 
 class MyApp extends StatelessWidget

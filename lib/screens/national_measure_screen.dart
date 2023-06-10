@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class UpperMeasureScreen extends StatelessWidget 
 {
-  final UpperMeasures clientMeasures;
+  final NationalMeasures clientMeasures;
 
   const UpperMeasureScreen({super.key, required this.clientMeasures});
 

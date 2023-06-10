@@ -1,6 +1,6 @@
-import 'package:tylor_app/widgets/lower_garment_table.dart';
+import 'package:tylor_app/widgets/suit_garment_table.dart';
 import 'package:tylor_app/widgets/measure_text_field.dart';
-import 'package:tylor_app/widgets/upper_garment_table.dart';
+import 'package:tylor_app/widgets/national_garment_table.dart';
 import 'package:flutter/material.dart';
 
 class MeasuresScreen extends StatefulWidget 
