@@ -24,17 +24,17 @@ class _MotivationalAboutScreenState extends State<MotivationalAboutScreen>
           children: [
 
                   CircleAvatar(
-                    radius: 50,
-                    backgroundImage: AssetImage('images/fahimkarimi.png'),
+                    radius: 80,
+                    backgroundImage: AssetImage('images/fahim.png'),
                   ),
                   Text(
-                      'Fahim Karimi',
+                      'Fahim Karimi and Rauf Rahghozar',
                       style: TextStyle(
-                        fontSize: 40,
+                        fontSize: 25,
                         fontWeight: FontWeight.bold,)
                   ),
                   Text(
-                    'Software Engenner',
+                    'Software Enginners',
                     style: TextStyle(
                       color: Colors.blue,
                       fontSize: 20,
@@ -49,7 +49,7 @@ class _MotivationalAboutScreenState extends State<MotivationalAboutScreen>
                     ),
                   ),
                   Card(
-                    margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                    margin: EdgeInsets.symmetric(horizontal: 25, vertical: 15),
                     child: ListTile(
                       leading: Icon(
                         Icons.email,
@@ -64,8 +64,24 @@ class _MotivationalAboutScreenState extends State<MotivationalAboutScreen>
                       ),
                     ),
                   ),
+            Card(
+              margin: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
+              child: ListTile(
+                leading: Icon(
+                  Icons.facebook,
+                  color: Colors.black,
+                ),
+                title: Text(
+                  'Fahim Karimi',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 17,
+                  ),
+                ),
+              ),
+            ),
                   Card(
-                    margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                    margin: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
                     child: ListTile(
                       leading: Icon(
                         Icons.phone,

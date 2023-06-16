@@ -50,7 +50,7 @@ class _MeasuresScreenState extends State<MeasuresScreen>
                 child: Column(
                   children: [
                     MeasureTextField(
-                      controller: nameController, 
+                      controller: nameController,
                       text: 'نام',
                       keyboardType: TextInputType.text,
                     ),
