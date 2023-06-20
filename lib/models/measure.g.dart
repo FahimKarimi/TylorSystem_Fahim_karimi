@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // GENERATED CODE - DO NOT MODIFY BY HAND
+=======
+
+>>>>>>> c50e349faffd628a11d30bd0056708b8e31673f7
 
 part of 'measure.dart';
 
